@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" coupert-item="9AF8D9A4E502F3784AD24272D81F0381"><script type="text/javascript" id="__gaOptOutExtension">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D-Druck Shop</title>
+
+    
+
+    
+
+
+<link rel="stylesheet" href="3D-Druck%20Shop-Dateien/style.css"><link href="3D-Druck%20Shop-Dateien/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></head>
+
+<body>
+
+    <h1>
+        3D-Druch Shop
+    </h1>
+
+
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+              Was machen wie eigendlich?
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Wir bieten Ihnen an Ihre 3D-Modelle oder sogar Ihre 
+Wünsche für 3D-Modelle zu Drucken. die Drucke haben eine gute und 
+saubere Qualität.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Wie machen wir es?
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Sie senden uns Ihre 3D-Modelle zu. Sie können uns 
+aber auch nur die Idee für ein 3D-Modell schicken. Dieses modellieren 
+wir dann und lassen es uns von unseren 3D_Drucker drucken.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Wer sind wir eigendlich?
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Wir sind eine kleine Gruppe aus an 3D-Druck 
+interessierten Schüler, die es anderen anbietet über unsere 3D-Drucker 
+Sachen drucken zu lassen, damit jeder die Möglichkeit hat Sachen 3D zu 
+drucken.
+
+                    <ol>
+
+                        <li>
+
+                            <strong>Felix Kolve</strong> <br>3D_Druck und Moddeling
+
+                        </li>
+                        <li>
+                            <strong>Moritz Althues</strong> <br>3D_Druck und Moddeling
+                        </li>
+                        <li>
+                            <strong>Kaspar Kolm</strong> <br>WebSide
+                        </li>
+
+                    </ol>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form action="dein_verarbeitungsskript.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required="" value="Kaspar">
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required="" value="hi.Hallo@gmail.com">
+
+        <label for="message">Nachricht:</label>
+        <textarea id="message" name="message" required="">hallo</textarea>
+
+        <input type="submit" value="Absenden">
+    </form>
+
+    <div class="service">
+        <h2>3D-Druckservice 1</h2>
+        <p>Beschreibung des Druckservices.</p>
+        <p>Preis: $X</p>
+    </div>
+
+    <div class="service">
+        <h2>3D-Druckservice 2</h2>
+        <p>Beschreibung des Druckservices.</p>
+        <p>Preis: $Y</p>
+    </div>
+
+
+
+    <script src="3D-Druck%20Shop-Dateien/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+    <script src="3D-Druck%20Shop-Dateien/main.js"></script>
+
+
+
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
